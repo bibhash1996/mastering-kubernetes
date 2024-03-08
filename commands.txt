@@ -1,0 +1,16 @@
+  146  kubectl get replicaset
+  147  kubectl edit deployment nginx-deployment
+  148  kubectl get pod
+  151  kubectl get replicaset
+  152  kubectl logs nginx-deployment-6644f659f-fgdnw
+  153  kubectl describe pod nginx-deployment-6644f659f-fgdnw
+  155  kubectl exec -it nginx-deployment-6644f659f-fgdnw -- bin/bash
+  157  kubectl get deployment
+  159  kubectl delete deployment nginx-deployment
+
+
+ # applying from configuration files
+  kubectl apply -f nginx-deployment.yaml
+
+
+  Selectors and labels are used for component connections
