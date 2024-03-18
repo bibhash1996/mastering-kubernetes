@@ -94,3 +94,6 @@ If not, run the below command
 ```
 eksctl utils associate-iam-oidc-provider --cluster $cluster_name --approve
 ```
+
+
+![Screenshot 2024-03-18 at 8 48 29 PM](https://github.com/bibhash1996/mastering-kubernetes/assets/14090203/1aeda8dc-fed5-460c-8798-f9884a08da8f)
