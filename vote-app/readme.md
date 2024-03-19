@@ -6,7 +6,7 @@
 3. MongoDB
 4. Kubernetes deployment (Using AWS EKS for the same)
 
-*Note* : Typescript will be used for types
+**Note** : Typescript will be used for types
 
 Not focusing on the UI element more but the idea is to make the app running and host it on EKS. 
 
