@@ -40,7 +40,7 @@ async function seedData() {
     }
     ]);
 
-    console.log("Data Seed done")
+    console.log("Data Seed done !!!")
 }
 
 
