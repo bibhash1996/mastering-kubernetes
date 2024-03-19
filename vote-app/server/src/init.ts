@@ -17,3 +17,5 @@ async function initDb() {
 export default async function initialise() {
     await initDb();
 }
+
+export { db }
