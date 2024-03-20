@@ -2,12 +2,15 @@ import 'dotenv/config'
 import express from 'express';
 import initialise from './init';
 import router from './routes';
+import cors from 'cors';
 
 
 const app = express();
+app.use(cors())
+
 app.use(router);
 
-const port = 3000;
+const port = 8080;
 
 
 initialise().then(() => {

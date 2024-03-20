@@ -16,6 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+      </head>
+      {/* 
+          layouts are used to create common elements like nav,headers etc
+      */}
       <body className={inter.className}>{children}</body>
     </html>
   );
