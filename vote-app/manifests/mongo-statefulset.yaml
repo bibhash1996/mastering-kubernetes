@@ -4,7 +4,7 @@ metadata:
   name: mongo
   namespace: vote-app
 spec:
-  serviceName: mongo-service
+  serviceName: mongo
   replicas: 3
   selector:
     matchLabels:

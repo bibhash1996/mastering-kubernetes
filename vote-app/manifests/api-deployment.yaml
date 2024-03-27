@@ -27,15 +27,9 @@ spec:
           imagePullPolicy: Always
           env:
             - name: MONGO_CONNECTION_STRING
-              valueFrom:
-                secretKeyRef:
-                  name: mongodb-secret
-                  key: username
+              value: mongodb://mongo-0.mongo,mongo-1.mongo,mongo-2.mongo:27017/sample_mflix?replicaSet=rs0
             - name: DATABASE
-              valueFrom:
-                secretKeyRef:
-                  name: mongodb-secret
-                  key: password
+              value: sample_mflix
           ports:
             - containerPort: 8080
           livenessProbe:
