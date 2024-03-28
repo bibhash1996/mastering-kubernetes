@@ -34,3 +34,9 @@ sleep(5000);
 
 For debugging pods : we can use kubectl port forwarding to forward requests to your pods directly using kubectl
     `kubectl port-forward api-5df6bcc597-2djfx 8080:8080`
+
+
+*Note*
+To use annotations in LoadBalancer Service type to deploy NLB instead of Classinc LOB deployed otherwise.
+
+Better approach is to use Ingress along with Ingress controllers for advance routing mechanisms based on path, domains and subdomains.
