@@ -37,6 +37,6 @@ For debugging pods : we can use kubectl port forwarding to forward requests to y
 
 
 **Note**
-To use annotations in LoadBalancer Service type to deploy NLB instead of Classinc LOB deployed otherwise.
+To use annotations in LoadBalancer Service type to deploy NLB instead of Classic LB deployed otherwise.
 
 Better approach is to use Ingress along with Ingress controllers for advance routing mechanisms based on path, domains and subdomains.
