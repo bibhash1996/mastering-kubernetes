@@ -6,7 +6,9 @@ Deploying charts on local minikube setup
 
 `helm install <unique-release-name> helm-chart-repo/ --values path/to/values.yaml`
 
-values.yaml can be replaced with values-dev.yaml and so on
+`helm install <unique-release-name> helm-chart-repo/ --values path/to/values.yaml -f pathto/values-dev.yaml`
+
+extra dev yaml with -f option gives extra values
 
 `helm ls`
 
